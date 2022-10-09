@@ -77,7 +77,7 @@ var streakGame = (function() {
                 <p>We are designing games that scientists can use to study visual attention. 
                 Our goal is to make the games as immersive and engaging as possible.
                 To make the games as immersive and engaging as possible, we are getting feedback from people like you.</p>
-                <p>You will play two different games: the <span class='${text.span1}'>${text.game1}</span> and the 
+                <p>You will play two different games of equal length: the <span class='${text.span1}'>${text.game1}</span> and the 
                 <span class='${text.span2}'>${text.game2}</span>. After each game, you will report how immersed and engaged you felt.</p>
                 <p>The games are very similar, but their color schemes will help you tell them apart.</p>
                 <p>Continue to learn about and play the <span class='${text.span1}'>${text.game1}</span>.</p>
@@ -203,7 +203,7 @@ var streakGame = (function() {
                 </div>`,
 
                 `<div class='parent'>
-                <p>Second, the <span class='${text.span1}'>${text.game1}</span> is divided into multiple, short rounds.</p>
+                <p>Second, the <span class='${text.span2}'>${text.game2}</span> is divided into multiple, short rounds.</p>
                 <p>In each round, you'll have five chances to activate a tile.<br>
                 If you activate a tile before your five chances are up, you'll win the round.</p>
                 </div>`,
@@ -228,7 +228,7 @@ var streakGame = (function() {
                 `<div class='parent'>
                 <p>Each time you miss a tile, you'll see how many more chances you have left in the current round.<br>
                 For example, if you have three chances left to activate a tile in the current round, you'll see this message:</p>
-                <div style='font-size:35px'><p><span style='color:${text.color1}; font-size:60px'>3</span></p><p>Chances left</p></div>
+                <div style='font-size:35px'><p><span style='color:${text.color2}; font-size:60px'>3</span></p><p>Chances left</p></div>
                 </div>`],
 
                 part2Bern: [`<div class='parent'>
