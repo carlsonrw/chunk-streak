@@ -14,6 +14,16 @@ var streakGame = (function() {
         val: 3,
         nTrials: 50
     };
+    
+    // debug mode (find the assignmentId & debugging status from the URL)
+       var urlParams = parseURLParams(window.location.href);
+       var debug = false;
+       jsPsych.data.addProperties({
+           debug: jsPsych.data.getURLVariable('debug'),
+       });
+       if (debug = true) {
+           settings = {nTrails= 5};
+       }
 
     // create text variables for instructions
     
